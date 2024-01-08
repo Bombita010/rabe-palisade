@@ -1,0 +1,29 @@
+/*
+用于配置C/C++扩展的详细设置的文件。该文件允许指定编译器路径、编译选项、宏定义、头文件包含路径等
+*/
+
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/palisade",
+                "/usr/local/include/palisade/core",
+                "/usr/local/include/palisade/pke",
+                "/usr/local/include/palisade/cereal"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang-11",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
+/*
+将 `/path/to/include/directory` 替换为你实际的标准库包含路径。
+将 `/path/to/compiler` 替换为你实际的编译器路径。
+你还可以根据需要添加或修改 `defines`、`cStandard`、`cppStandard` 和 `intelliSenseMode` 等选项。
+*/

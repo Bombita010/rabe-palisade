@@ -1,0 +1,19 @@
+{
+    "editor.codeActionsOnSave": {
+
+
+    }
+    
+
+    // Include installed palisade for library references:用于配置默认的头文件包含路径，该设置项允许指定在没有指定特定项目的c_cpp_properties.json文件时要使用的默认头文件包含路径
+//     "C_Cpp.default.includePath": [
+//     "/usr/local/include/palisade",
+//     "/usr/local/include/palisade/core",
+//     "/usr/local/include/palisade/pke",
+//     "/usr/local/include/palisade/cereal", 
+//     // "/usr/local/include/palisade/binfhe", // (optional) only needed if working with circuits
+// ],
+
+
+
+}
