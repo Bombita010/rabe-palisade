@@ -1,7 +1,7 @@
 #include <iostream>
 #include "palisade.h"
 #include "palisadecore.h"
-#include "palisade-abe/abecore.h"
+#include "abeparamset.h"
 
 
 using namespace std;
