@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMAT
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke 
+CXX_INCLUDES = -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe 
 

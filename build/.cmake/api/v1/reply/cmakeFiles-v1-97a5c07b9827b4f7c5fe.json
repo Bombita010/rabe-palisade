@@ -107,6 +107,22 @@
 		{
 			"isExternal" : true,
 			"path" : "/usr/local/lib/Palisade/PalisadeTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/PALISADEabe/PALISADEabeConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/PALISADEabe/PALISADEabeConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/PALISADEabe/PALISADEabeTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/PALISADEabe/PALISADEabeTargets-noconfig.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

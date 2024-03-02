@@ -26,19 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 49,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 34,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 28,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -57,6 +51,18 @@
 				"command" : 2,
 				"file" : 0,
 				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 41,
 				"parent" : 0
 			}
 		]
@@ -90,6 +96,10 @@
 				{
 					"backtrace" : 6,
 					"path" : "/usr/local/include/palisade/pke"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/usr/local/include/palisade-abe"
 				}
 			],
 			"language" : "CXX",
@@ -119,6 +129,15 @@
 			},
 			{
 				"fragment" : "-Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "/usr/local/lib/libPALISADEabe.so.1.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-fopenmp",
 				"role" : "libraries"
 			},
 			{

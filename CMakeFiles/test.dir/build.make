@@ -79,6 +79,7 @@ test_EXTERNAL_OBJECTS =
 
 bin/test: CMakeFiles/test.dir/src/main.cpp.o
 bin/test: CMakeFiles/test.dir/build.make
+bin/test: /usr/local/lib/libPALISADEabe.so.1.11.0
 bin/test: /usr/local/lib/libPALISADEpke.so.1.11.9
 bin/test: /usr/local/lib/libPALISADEbinfhe.so.1.11.9
 bin/test: /usr/local/lib/libPALISADEcore.so.1.11.9

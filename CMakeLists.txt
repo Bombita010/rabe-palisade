@@ -20,6 +20,7 @@ project(rabe CXX)
 set(CMAKE_CXX_STANDARD 11)
 option( BUILD_STATIC "Set to ON to include static versions of the library" OFF)
 
+### 链接palisade库 ###
 find_package(Palisade)
 
 set( CMAKE_CXX_FLAGS ${PALISADE_CXX_FLAGS} )
@@ -33,6 +34,15 @@ include_directories( ${PALISADE_INCLUDE}/pke )
 
 link_directories( ${PALISADE_LIBDIR} )
 link_directories( ${OPENMP_LIBRARIES} )
+
+### 链接palisade-abe库 ###
+find_package(PALISADEabe 1.11.0 REQUIRED)
+
+include_directories( ${ABE_INCLUDE} )
+link_directories( ${ABE_LIBDIR} )
+link_libraries(PALISADEabe ${PALISADE_LIBRARIES} )
+### 链接palisade-abe库 ###
+
 if(BUILD_STATIC)
     set( CMAKE_EXE_LINKER_FLAGS "${PALISADE_EXE_LINKER_FLAGS} -static")
     link_libraries( ${PALISADE_STATIC_LIBRARIES} )
@@ -41,12 +51,11 @@ else()
     link_libraries( ${PALISADE_SHARED_LIBRARIES} )
 endif()
 
-#添加可执行文件
+### 添加生成的可执行文件路径 ###
 ### ADD YOUR EXECUTABLE(s) HERE
 ### add_executable( EXECUTABLE-NAME SOURCES )
 ###
 ### EXAMPLE:
 add_executable(test src/main.cpp )
-
-#设置可执行文件的输出路径为build/bin目录
+### 设置可执行文件的输出路径为build/bin目录
 set_target_properties(test PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)

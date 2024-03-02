@@ -14,6 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include/palisade/third-party/include"
   "/usr/local/include/palisade/core"
   "/usr/local/include/palisade/pke"
+  "/usr/local/include/palisade-abe"
   )
 
 # Targets to which this target links.
