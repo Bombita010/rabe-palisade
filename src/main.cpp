@@ -1,10 +1,11 @@
 #include <iostream>
 
+#include "config.cpp"
 #include "central_auth.h"
 #include "attr_auth.h"
 #include "user.h"
 
-//#include "palisade/core/lattice/trapdoor.h"
+#include "palisade/core/lattice/trapdoor.h"
 #include "palisade/core/math/backend.h"
 #include "palisade.h"
 #include "palisadecore.h"
@@ -32,13 +33,13 @@ int main(int argc, char *argv[]){
   std::cout << "属性数量:" << numAttributes << std::endl;
   std::cout << "基:" << base <<std::endl;
 
-
+  /*----------------------------初始化----------------------------*/
   ABEContext<NativePoly> context;
   std::cout << "根据以上参数生成context" << std::endl
             << std::endl;
   context.GenerateCPABEContext(numAttributes, ringsize, base);
 
-  //生成主公私钥对
+  /*--------------------------主公私钥对--------------------------*/
   std::cout << "生成主私钥、主公钥" << std::endl;
   TIC(t1);
   CPABEMasterPublicKey<NativePoly> mpk;
@@ -49,7 +50,7 @@ int main(int argc, char *argv[]){
             << std::endl;
   
 
-  //创建随机的访问结构和用户属性集
+  /*-----------------------访问结构&户属性集----------------------*/
   std::cout << "创建访问结构和用户属性集" << std::endl;
   std::vector<usint> s(6);
   std::vector<int> w(6);
@@ -80,7 +81,7 @@ int main(int argc, char *argv[]){
   CPABEUserAccess<NativePoly> ua(s);
   CPABEAccessPolicy<NativePoly> ap(w);
 
-  //生成和属性集匹配的私钥
+  /*--------------------------用户私钥--------------------------*/
   CPABESecretKey<NativePoly> sk;
   std::cout << "为属性集生成私钥" << std::endl;
   TIC(t1);
@@ -95,7 +96,7 @@ int main(int argc, char *argv[]){
   std::cout << "明文向量bits" << vectorOfInts << std::endl
             << std::endl;
   
-  //加密阶段
+  /*-----------------------------加密-----------------------------*/
   std::cout << "依据访问策略加密明文" << std::endl;
   TIC(t1);
   CPABECiphertext<NativePoly> ct;
@@ -104,7 +105,7 @@ int main(int argc, char *argv[]){
   std::cout << "加密：" << duration << " ms" << std::endl
             << std::endl;
 
-  //解密阶段
+  /*-----------------------------解密-----------------------------*/
   std::cout << "解密密文" << std::endl;
   TIC(t1);
   Plaintext dt = context.Decrypt(ap, ua, sk, ct);

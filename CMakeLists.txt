@@ -20,11 +20,15 @@ project(rabe CXX)
 set(CMAKE_CXX_STANDARD 11)
 option( BUILD_STATIC "Set to ON to include static versions of the library" OFF)
 
+#本项目的头文件
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
 ### 链接palisade库 ###
 find_package(Palisade)
 
 set( CMAKE_CXX_FLAGS ${PALISADE_CXX_FLAGS} )
 
+#依赖
 include_directories( ${OPENMP_INCLUDES} )
 include_directories( ${PALISADE_INCLUDE} )
 include_directories( ${PALISADE_INCLUDE}/third-party/include )
@@ -57,5 +61,12 @@ endif()
 ###
 ### EXAMPLE:
 add_executable(test src/main.cpp )
+add_executable(testconfig src/config.cpp )
+
+#将include目录添加到test目标的包含路径中
+target_include_directories(test PUBLIC ${CMAKE_SOURCE_DIR}/include)
+target_include_directories(testconfig PUBLIC ${CMAKE_SOURCE_DIR}/include)
+
 ### 设置可执行文件的输出路径为build/bin目录
 set_target_properties(test PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set_target_properties(testconfig PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)

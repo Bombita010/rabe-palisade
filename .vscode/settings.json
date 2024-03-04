@@ -59,7 +59,9 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeindex": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "forward_list": "cpp",
+        "valarray": "cpp"
     },
     "editor.fontSize": 15
 }

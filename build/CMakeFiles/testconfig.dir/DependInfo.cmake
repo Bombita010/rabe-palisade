@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bombita/rabe/src/main.cpp" "/home/bombita/rabe/build/CMakeFiles/test.dir/src/main.cpp.o"
+  "/home/bombita/rabe/src/config.cpp" "/home/bombita/rabe/build/CMakeFiles/testconfig.dir/src/config.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

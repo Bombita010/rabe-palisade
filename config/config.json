@@ -1,0 +1,12 @@
+{
+    "_comment1": "环参数",
+    "ringSize": 1024,
+    "base": 64,
+    "_comment2": "系统参数",
+    "numOfAAs": 5,
+    "numOfAttributes": 10,
+    "_comment3": "多项式参数",
+    "degreeOfPoly": 23,
+    "largePrime": 1461501637330902918203684832716283019655932564481,
+    "m": 13
+}
