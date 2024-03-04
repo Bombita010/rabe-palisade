@@ -1,5 +1,9 @@
 #include <iostream>
 
+#include "central_auth.h"
+#include "attr_auth.h"
+#include "user.h"
+
 //#include "palisade/core/lattice/trapdoor.h"
 #include "palisade/core/math/backend.h"
 #include "palisade.h"
