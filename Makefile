@@ -150,6 +150,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/myconfig.o: src/myconfig.cpp.o
+
+.PHONY : src/myconfig.o
+
+# target to build an object file
+src/myconfig.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/myconfig.cpp.o
+.PHONY : src/myconfig.cpp.o
+
+src/myconfig.i: src/myconfig.cpp.i
+
+.PHONY : src/myconfig.i
+
+# target to preprocess a source file
+src/myconfig.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/myconfig.cpp.i
+.PHONY : src/myconfig.cpp.i
+
+src/myconfig.s: src/myconfig.cpp.s
+
+.PHONY : src/myconfig.s
+
+# target to generate assembly for a file
+src/myconfig.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/myconfig.cpp.s
+.PHONY : src/myconfig.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/myconfig.o"
+	@echo "... src/myconfig.i"
+	@echo "... src/myconfig.s"
 .PHONY : help
 
 

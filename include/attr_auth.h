@@ -1,6 +1,9 @@
 #ifndef ATTR_AUTH_H
 #define ATTR_AUTH_H
 
+#include "palisade.h"
+
+using namespace lbcrypto;
 class AttrAuth
 {
 private:

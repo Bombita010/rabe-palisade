@@ -9,6 +9,26 @@
 ../include/attr_auth.h
 
 ../include/central_auth.h
+palisade.h
+../include/palisade.h
+
+../include/myconfig.h
+nlohmann/json.hpp
+-
+string
+-
+fstream
+-
+iostream
+-
+unistd.h
+-
+unordered_map
+-
+mutex
+-
+palisade.h
+../include/palisade.h
 
 ../include/user.h
 
@@ -21,6 +41,8 @@ attr_auth.h
 /home/bombita/rabe/src/attr_auth.h
 user.h
 /home/bombita/rabe/src/user.h
+myconfig.h
+/home/bombita/rabe/src/myconfig.h
 palisade/core/lattice/trapdoor.h
 /home/bombita/rabe/src/palisade/core/lattice/trapdoor.h
 palisade/core/math/backend.h
@@ -31,6 +53,10 @@ palisadecore.h
 /home/bombita/rabe/src/palisadecore.h
 palisade-abe/abecontext.h
 /home/bombita/rabe/src/palisade-abe/abecontext.h
+
+/home/bombita/rabe/src/myconfig.cpp
+myconfig.h
+/home/bombita/rabe/src/myconfig.h
 
 /usr/local/include/palisade/cereal/access.hpp
 type_traits

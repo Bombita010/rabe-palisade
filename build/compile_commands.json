@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/bombita/rabe/build",
-  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/testconfig.dir/src/config.cpp.o -c /home/bombita/rabe/src/config.cpp",
-  "file": "/home/bombita/rabe/src/config.cpp"
+  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/main.cpp.o -c /home/bombita/rabe/src/main.cpp",
+  "file": "/home/bombita/rabe/src/main.cpp"
 },
 {
   "directory": "/home/bombita/rabe/build",
-  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/main.cpp.o -c /home/bombita/rabe/src/main.cpp",
-  "file": "/home/bombita/rabe/src/main.cpp"
+  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/myconfig.cpp.o -c /home/bombita/rabe/src/myconfig.cpp",
+  "file": "/home/bombita/rabe/src/myconfig.cpp"
 }
 ]

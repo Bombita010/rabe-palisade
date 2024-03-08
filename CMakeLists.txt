@@ -22,6 +22,8 @@ option( BUILD_STATIC "Set to ON to include static versions of the library" OFF)
 
 #本项目的头文件
 include_directories(${PROJECT_SOURCE_DIR}/include)
+#本项目的资源文件
+#include_directories(${PROJECT_SOURCE_DIR}/src)
 
 ### 链接palisade库 ###
 find_package(Palisade)
@@ -60,13 +62,13 @@ endif()
 ### add_executable( EXECUTABLE-NAME SOURCES )
 ###
 ### EXAMPLE:
-add_executable(test src/main.cpp )
-add_executable(testconfig src/config.cpp )
+add_executable(test src/main.cpp src/myconfig.cpp)
+#add_executable(testconfig src/myconfig.cpp )
 
 #将include目录添加到test目标的包含路径中
 target_include_directories(test PUBLIC ${CMAKE_SOURCE_DIR}/include)
-target_include_directories(testconfig PUBLIC ${CMAKE_SOURCE_DIR}/include)
+#target_include_directories(testconfig PUBLIC ${CMAKE_SOURCE_DIR}/include)
 
 ### 设置可执行文件的输出路径为build/bin目录
 set_target_properties(test PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set_target_properties(testconfig PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+#set_target_properties(testconfig PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)

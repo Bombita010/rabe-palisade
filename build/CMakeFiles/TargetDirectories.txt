@@ -1,4 +1,3 @@
 /home/bombita/rabe/build/CMakeFiles/rebuild_cache.dir
-/home/bombita/rabe/build/CMakeFiles/testconfig.dir
 /home/bombita/rabe/build/CMakeFiles/edit_cache.dir
 /home/bombita/rabe/build/CMakeFiles/test.dir

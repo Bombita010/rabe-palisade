@@ -53,7 +53,6 @@ CMAKE_BINARY_DIR = /home/bombita/rabe/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/testconfig.dir/all
 all: CMakeFiles/test.dir/all
 
 .PHONY : all
@@ -64,37 +63,9 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/testconfig.dir/clean
 clean: CMakeFiles/test.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/testconfig.dir
-
-# All Build rule for target.
-CMakeFiles/testconfig.dir/all:
-	$(MAKE) -f CMakeFiles/testconfig.dir/build.make CMakeFiles/testconfig.dir/depend
-	$(MAKE) -f CMakeFiles/testconfig.dir/build.make CMakeFiles/testconfig.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=3,4 "Built target testconfig"
-.PHONY : CMakeFiles/testconfig.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/testconfig.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bombita/rabe/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testconfig.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bombita/rabe/build/CMakeFiles 0
-.PHONY : CMakeFiles/testconfig.dir/rule
-
-# Convenience name for target.
-testconfig: CMakeFiles/testconfig.dir/rule
-
-.PHONY : testconfig
-
-# clean rule for target.
-CMakeFiles/testconfig.dir/clean:
-	$(MAKE) -f CMakeFiles/testconfig.dir/build.make CMakeFiles/testconfig.dir/clean
-.PHONY : CMakeFiles/testconfig.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/test.dir
@@ -103,12 +74,12 @@ CMakeFiles/testconfig.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=1,2 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=1,2,3 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bombita/rabe/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bombita/rabe/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bombita/rabe/build/CMakeFiles 0
 .PHONY : CMakeFiles/test.dir/rule

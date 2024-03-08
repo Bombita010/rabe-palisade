@@ -1,6 +1,9 @@
 #ifndef USER_H
 #define USER_H
 
+#include "palisade.h"
+
+using namespace lbcrypto;
 class User
 {
 private:

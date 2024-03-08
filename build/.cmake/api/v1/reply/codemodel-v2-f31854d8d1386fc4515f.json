@@ -14,8 +14,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -30,8 +29,7 @@
 					"name" : "rabe",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,15 +38,8 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-b8184a48e9c15b35ee63.json",
+					"jsonFile" : "target-test-Debug-6ee756683d0601c3d16e.json",
 					"name" : "test",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "testconfig::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-testconfig-Debug-d01de48746b8cbae599b.json",
-					"name" : "testconfig",
 					"projectIndex" : 0
 				}
 			]

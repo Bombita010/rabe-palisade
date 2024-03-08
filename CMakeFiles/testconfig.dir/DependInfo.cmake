@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bombita/rabe/src/myconfig.cpp" "/home/bombita/rabe/build/CMakeFiles/testconfig.dir/src/myconfig.cpp.o"
+  "/home/bombita/rabe/src/config.cpp" "/home/bombita/rabe/CMakeFiles/testconfig.dir/src/config.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../include"
+  "include"
+  "src"
   "/usr/local/include/palisade"
   "/usr/local/include/palisade/third-party/include"
   "/usr/local/include/palisade/core"

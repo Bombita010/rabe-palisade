@@ -1,5 +1,6 @@
 {
     "_comment1": "环参数",
+    "level": 3,
     "ringSize": 1024,
     "base": 64,
     "_comment2": "系统参数",

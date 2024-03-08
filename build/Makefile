@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named testconfig
-
-# Build rule for target.
-testconfig: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testconfig
-.PHONY : testconfig
-
-# fast build rule for target.
-testconfig/fast:
-	$(MAKE) -f CMakeFiles/testconfig.dir/build.make CMakeFiles/testconfig.dir/build
-.PHONY : testconfig/fast
-
-#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -135,33 +122,6 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
-
-src/config.o: src/config.cpp.o
-
-.PHONY : src/config.o
-
-# target to build an object file
-src/config.cpp.o:
-	$(MAKE) -f CMakeFiles/testconfig.dir/build.make CMakeFiles/testconfig.dir/src/config.cpp.o
-.PHONY : src/config.cpp.o
-
-src/config.i: src/config.cpp.i
-
-.PHONY : src/config.i
-
-# target to preprocess a source file
-src/config.cpp.i:
-	$(MAKE) -f CMakeFiles/testconfig.dir/build.make CMakeFiles/testconfig.dir/src/config.cpp.i
-.PHONY : src/config.cpp.i
-
-src/config.s: src/config.cpp.s
-
-.PHONY : src/config.s
-
-# target to generate assembly for a file
-src/config.cpp.s:
-	$(MAKE) -f CMakeFiles/testconfig.dir/build.make CMakeFiles/testconfig.dir/src/config.cpp.s
-.PHONY : src/config.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -190,6 +150,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/myconfig.o: src/myconfig.cpp.o
+
+.PHONY : src/myconfig.o
+
+# target to build an object file
+src/myconfig.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/myconfig.cpp.o
+.PHONY : src/myconfig.cpp.o
+
+src/myconfig.i: src/myconfig.cpp.i
+
+.PHONY : src/myconfig.i
+
+# target to preprocess a source file
+src/myconfig.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/myconfig.cpp.i
+.PHONY : src/myconfig.cpp.i
+
+src/myconfig.s: src/myconfig.cpp.s
+
+.PHONY : src/myconfig.s
+
+# target to generate assembly for a file
+src/myconfig.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/myconfig.cpp.s
+.PHONY : src/myconfig.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,15 +184,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... testconfig"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... src/config.o"
-	@echo "... src/config.i"
-	@echo "... src/config.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/myconfig.o"
+	@echo "... src/myconfig.i"
+	@echo "... src/myconfig.s"
 .PHONY : help
 
 
