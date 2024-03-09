@@ -1,5 +1,12 @@
 {
     "editor.codeActionsOnSave": {},
+    // Include installed palisade for library references
+    "C_Cpp.default.includePath": [
+        "/usr/local/include/palisade/core",
+        "/usr/local/include/palisade/pke",
+        "/usr/local/include/palisade/cereal",
+        // "/usr/local/include/palisade/binfhe", // (optional) only needed if working with circuits
+    ],
     "files.associations": {
         "iostream": "cpp",
         "array": "cpp",

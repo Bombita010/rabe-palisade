@@ -12,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
+  "../src"
   "/usr/local/include/palisade"
   "/usr/local/include/palisade/third-party/include"
   "/usr/local/include/palisade/core"

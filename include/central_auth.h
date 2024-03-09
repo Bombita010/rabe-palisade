@@ -1,3 +1,5 @@
+/*  @file central_auth.h - 中央权威  */ 
+
 #ifndef CENTRAL_AUTH_H
 #define CENTRAL_AUTH_H
 

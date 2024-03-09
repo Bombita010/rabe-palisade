@@ -1,10 +1,12 @@
-// Node.h
+/*  @file node.h - 节点Node类  */ 
+
 #ifndef NODE_H
 #define NODE_H
 
+#include <ctime>
+
 class Node {
 private:
-
 
 public:
     int u; // 用户相关字段，如果是叶子节点，则会存储用户userList里的相关信息
@@ -23,5 +25,6 @@ public:
     Node* getLchild() const;
     Node* getRchild() const;
 };
+
 
 #endif // NODE_H

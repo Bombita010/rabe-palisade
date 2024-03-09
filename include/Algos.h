@@ -1,7 +1,10 @@
+/*  @file Algos.h - 提供一些系统功能所需算法  */ 
+
 #ifndef ALGOS_H
 #define ALGOS_H
 
 #include <vector>
+
 
 #include "node.h"
 #include "BTtree.h"
@@ -19,13 +22,22 @@ public:
     *@description:  KUNodes算法               
     *@
     *@param: BT树                      
+    *@param: 非空的撤销列表                   
+    *@
+    *@return: 撤销列表的最小覆盖集                                        
+    */
+    std::vector<int> kUNodes(BTtree &BTtree, const std::vector<Node*> revList);
+
+    /*
+    *@description:  KUNodes算法               
+    *@
+    *@param: BT树                      
     *@param: 非空的撤销列表 
     *@param: 时间t：是环元素R^q                     
     *@
-    *@return:                      
-    *@return:                      
+    *@return: 撤销列表的最小覆盖集                                         
     */
-    std::vector<Node *> kUNodes(const BTtree &BTtree, const std::vector<int> &revList, int t);
+    std::vector<int> kUNodes(BTtree &BTtree, const std::vector<RLuser> revList, time_t t);
 };
 
 Algos::Algos(/* args */)

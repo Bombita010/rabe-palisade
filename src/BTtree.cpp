@@ -62,18 +62,17 @@ std::pair<Node*, std::vector<int>> BTtree::createTree(const std::vector<int>& us
 }
 
 std::map<int, int> BTtree::createTree2(const std::vector<int>& U) {
-    // 请参考Python中的createTree2方法来实现相应的逻辑
+    // 
 }
 
 /*
 *@description:  叶子节点到根节点的路径                 
 *@
-*@param: 对应一个用户的叶子节点                       
-*@param:                       
+*@param: 对应一个用户的叶子节点                                          
 *@
 *@return: 路径节点id列表                                          
 */
-std::vector<int> BTtree::getPath(Node* leaf) {
+std::vector<int> BTtree::getPathId(Node* leaf) {
     //是否叶子节点
     if(leaf == nullptr)
         return {};
@@ -92,12 +91,11 @@ std::vector<int> BTtree::getPath(Node* leaf) {
 /*
 *@description:  叶子节点到根节点的路径                 
 *@
-*@param: 对应一个用户的叶子节点                       
-*@param:                       
+*@param: 对应一个用户的叶子节点                                           
 *@
 *@return: 路径节点列表                                          
 */
-std::vector<Node*> BTtree::getPath2(Node* leaf) {
+std::vector<Node*> BTtree::getPathNode(Node* leaf) {
     //是否叶子节点
     if(leaf == nullptr)
         return {};
@@ -112,6 +110,7 @@ std::vector<Node*> BTtree::getPath2(Node* leaf) {
     path.push_back(tmp);
     return path;
 }
+
 /*
 *@description: 先序遍历完全二叉树并打印所有节点id               
 *@
@@ -135,7 +134,7 @@ void BTtree::preOrderTraversal(Node* root) {
 *@
 *@return: pair<叶子节点的节点id, Node*>                                          
 */
-std::pair<int, Node*> BTtree::searchU(Node* root, int u) {
+std::pair<int, Node*> BTtree::searchUser(Node* root, int u) {
     std::pair<int, Node*> res =std::make_pair(0,nullptr);
     if(root == nullptr)
         return res;
@@ -148,8 +147,8 @@ std::pair<int, Node*> BTtree::searchU(Node* root, int u) {
             return res;
         }
     }
-    if(this->searchU(root->lchild,u).second == nullptr)
-        return this->searchU(root->rchild, u);
+    if(this->searchUser(root->lchild,u).second == nullptr)
+        return this->searchUser(root->rchild, u);
     else
-        return this->searchU(root->lchild, u);
+        return this->searchUser(root->lchild, u);
 }

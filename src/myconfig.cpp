@@ -1,4 +1,4 @@
-// @file myconfig.cpp - 读取配置文件config/config.json（环参数，系统参数等）
+/*  @file myconfig.cpp - 读取配置文件config/config.json（环参数，系统参数等）  */ 
 #include "myconfig.h"
 
 

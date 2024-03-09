@@ -23,12 +23,13 @@ option( BUILD_STATIC "Set to ON to include static versions of the library" OFF)
 #本项目的头文件
 include_directories(${PROJECT_SOURCE_DIR}/include)
 #本项目的资源文件
-#include_directories(${PROJECT_SOURCE_DIR}/src)
+include_directories(${PROJECT_SOURCE_DIR}/src)
 
 ### 链接palisade库 ###
 find_package(Palisade)
 
 set( CMAKE_CXX_FLAGS ${PALISADE_CXX_FLAGS} )
+set( CMAKE_EXE_LINKER_FLAGS ${PALISADE_EXE_LINKER_FLAGS} )
 
 #依赖
 include_directories( ${OPENMP_INCLUDES} )

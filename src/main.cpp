@@ -1,9 +1,12 @@
 #include <iostream>
 
+#include "myconfig.h"
 #include "central_auth.h"
 #include "attr_auth.h"
 #include "user.h"
-#include "myconfig.h"
+#include "node.h"
+#include "BTtree.h"
+#include "Algos.h"
 
 #include "palisade/core/lattice/trapdoor.h"
 #include "palisade/core/math/backend.h"

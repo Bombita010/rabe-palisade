@@ -1,3 +1,5 @@
+/*  @file myconfig.h - 读取配置文件config/config.json（环参数，系统参数等）  */ 
+
 #ifndef MYCONFIG_H
 #define MYCONFIG_H
 
