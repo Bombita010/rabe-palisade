@@ -57,9 +57,61 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
+CMakeFiles/test.dir/src/Algos.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/Algos.cpp.o: ../src/Algos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/src/Algos.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/Algos.cpp.o -c /home/bombita/rabe/src/Algos.cpp
+
+CMakeFiles/test.dir/src/Algos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/Algos.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bombita/rabe/src/Algos.cpp > CMakeFiles/test.dir/src/Algos.cpp.i
+
+CMakeFiles/test.dir/src/Algos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/Algos.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bombita/rabe/src/Algos.cpp -o CMakeFiles/test.dir/src/Algos.cpp.s
+
+CMakeFiles/test.dir/src/BTtree.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/BTtree.cpp.o: ../src/BTtree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/src/BTtree.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/BTtree.cpp.o -c /home/bombita/rabe/src/BTtree.cpp
+
+CMakeFiles/test.dir/src/BTtree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/BTtree.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bombita/rabe/src/BTtree.cpp > CMakeFiles/test.dir/src/BTtree.cpp.i
+
+CMakeFiles/test.dir/src/BTtree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/BTtree.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bombita/rabe/src/BTtree.cpp -o CMakeFiles/test.dir/src/BTtree.cpp.s
+
+CMakeFiles/test.dir/src/attr_auth.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/attr_auth.cpp.o: ../src/attr_auth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/src/attr_auth.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/attr_auth.cpp.o -c /home/bombita/rabe/src/attr_auth.cpp
+
+CMakeFiles/test.dir/src/attr_auth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/attr_auth.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bombita/rabe/src/attr_auth.cpp > CMakeFiles/test.dir/src/attr_auth.cpp.i
+
+CMakeFiles/test.dir/src/attr_auth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/attr_auth.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bombita/rabe/src/attr_auth.cpp -o CMakeFiles/test.dir/src/attr_auth.cpp.s
+
+CMakeFiles/test.dir/src/central_auth.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/central_auth.cpp.o: ../src/central_auth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/src/central_auth.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/central_auth.cpp.o -c /home/bombita/rabe/src/central_auth.cpp
+
+CMakeFiles/test.dir/src/central_auth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/central_auth.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bombita/rabe/src/central_auth.cpp > CMakeFiles/test.dir/src/central_auth.cpp.i
+
+CMakeFiles/test.dir/src/central_auth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/central_auth.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bombita/rabe/src/central_auth.cpp -o CMakeFiles/test.dir/src/central_auth.cpp.s
+
 CMakeFiles/test.dir/src/main.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/src/main.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/main.cpp.o -c /home/bombita/rabe/src/main.cpp
 
 CMakeFiles/test.dir/src/main.cpp.i: cmake_force
@@ -72,7 +124,7 @@ CMakeFiles/test.dir/src/main.cpp.s: cmake_force
 
 CMakeFiles/test.dir/src/myconfig.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/src/myconfig.cpp.o: ../src/myconfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/src/myconfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test.dir/src/myconfig.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/myconfig.cpp.o -c /home/bombita/rabe/src/myconfig.cpp
 
 CMakeFiles/test.dir/src/myconfig.cpp.i: cmake_force
@@ -83,23 +135,61 @@ CMakeFiles/test.dir/src/myconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/myconfig.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bombita/rabe/src/myconfig.cpp -o CMakeFiles/test.dir/src/myconfig.cpp.s
 
+CMakeFiles/test.dir/src/node.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/node.cpp.o: ../src/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test.dir/src/node.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/node.cpp.o -c /home/bombita/rabe/src/node.cpp
+
+CMakeFiles/test.dir/src/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/node.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bombita/rabe/src/node.cpp > CMakeFiles/test.dir/src/node.cpp.i
+
+CMakeFiles/test.dir/src/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/node.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bombita/rabe/src/node.cpp -o CMakeFiles/test.dir/src/node.cpp.s
+
+CMakeFiles/test.dir/src/user.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/user.cpp.o: ../src/user.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test.dir/src/user.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/src/user.cpp.o -c /home/bombita/rabe/src/user.cpp
+
+CMakeFiles/test.dir/src/user.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/user.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bombita/rabe/src/user.cpp > CMakeFiles/test.dir/src/user.cpp.i
+
+CMakeFiles/test.dir/src/user.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/user.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bombita/rabe/src/user.cpp -o CMakeFiles/test.dir/src/user.cpp.s
+
 # Object files for target test
 test_OBJECTS = \
+"CMakeFiles/test.dir/src/Algos.cpp.o" \
+"CMakeFiles/test.dir/src/BTtree.cpp.o" \
+"CMakeFiles/test.dir/src/attr_auth.cpp.o" \
+"CMakeFiles/test.dir/src/central_auth.cpp.o" \
 "CMakeFiles/test.dir/src/main.cpp.o" \
-"CMakeFiles/test.dir/src/myconfig.cpp.o"
+"CMakeFiles/test.dir/src/myconfig.cpp.o" \
+"CMakeFiles/test.dir/src/node.cpp.o" \
+"CMakeFiles/test.dir/src/user.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
+bin/test: CMakeFiles/test.dir/src/Algos.cpp.o
+bin/test: CMakeFiles/test.dir/src/BTtree.cpp.o
+bin/test: CMakeFiles/test.dir/src/attr_auth.cpp.o
+bin/test: CMakeFiles/test.dir/src/central_auth.cpp.o
 bin/test: CMakeFiles/test.dir/src/main.cpp.o
 bin/test: CMakeFiles/test.dir/src/myconfig.cpp.o
+bin/test: CMakeFiles/test.dir/src/node.cpp.o
+bin/test: CMakeFiles/test.dir/src/user.cpp.o
 bin/test: CMakeFiles/test.dir/build.make
 bin/test: /usr/local/lib/libPALISADEabe.so.1.11.0
 bin/test: /usr/local/lib/libPALISADEpke.so.1.11.9
 bin/test: /usr/local/lib/libPALISADEbinfhe.so.1.11.9
 bin/test: /usr/local/lib/libPALISADEcore.so.1.11.9
 bin/test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bombita/rabe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable bin/test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

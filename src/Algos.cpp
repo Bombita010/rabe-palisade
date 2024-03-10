@@ -1,5 +1,9 @@
 #include "Algos.h"
 
+Algos::Algos(/* args */)
+{
+}
+
 /*
 *@description:  KUNodes算法               
 *@
@@ -110,4 +114,9 @@ std::vector<int> Algos::kUNodes(BTtree &BTtree, const std::vector<RLuser> revLis
 
     return minCover;
 
+}
+
+
+Algos::~Algos()
+{
 }

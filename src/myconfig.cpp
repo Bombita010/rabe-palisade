@@ -35,6 +35,20 @@ bool MyConfig::loadConfig(const std::string& filePath)
     // numAttributes = j["numOfAttributes"].get<usint>();
 }
 
+int MyConfig::getIntValue(const std::string &key)
+{
+    try
+    {
+        std::cout << key << std::endl;
+        return configData["level"].get<int>();
+    }
+    catch(json::exception& e)
+    {
+        std::cerr << "JSON exception" << e.what() << std::endl;
+        return 0;
+    }
+}
+
 usint MyConfig::getUsintValue(const std::string &key)
 {
     try

@@ -15,13 +15,6 @@ public:
     ~AttrAuth();
 };
 
-AttrAuth::AttrAuth(/* args */)
-{
-}
-
-AttrAuth::~AttrAuth()
-{
-}
 
 
 #endif //ATTR_AUTH_H

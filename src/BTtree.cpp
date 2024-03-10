@@ -23,13 +23,13 @@ std::pair<Node*, std::vector<int>> BTtree::createTree(const std::vector<int>& us
     //存储用户identity的列表 ？？
     std::vector<int> identityList;
     //初始化所有节点id
-    for (int i = 0; ++i; i < nodeNum + 1)
+    for (int i = 0; i < nodeNum + 1; ++i)
     {
-        Node* node = new Node(i,nullptr,nullptr,nullptr,false);
+        Node* node = new Node(i,nullptr,nullptr,nullptr,false,0);
         nodeList.push_back(node);
     }
     //初始化所有节点的child-parent关系 
-    for (int i = 1; ++i; i < nodeNum + 1)
+    for (int i = 1; i < nodeNum + 1; ++i)
     {
         //根节点
         if (i == 1)
@@ -61,8 +61,9 @@ std::pair<Node*, std::vector<int>> BTtree::createTree(const std::vector<int>& us
     return bTroot_idList;
 }
 
-std::map<int, int> BTtree::createTree2(const std::vector<int>& U) {
-    // 
+std::pair<int, int> BTtree::createTree2(const std::vector<int>& U) {
+    //
+    return std::make_pair(0, 0);
 }
 
 /*
@@ -151,4 +152,9 @@ std::pair<int, Node*> BTtree::searchUser(Node* root, int u) {
         return this->searchUser(root->rchild, u);
     else
         return this->searchUser(root->lchild, u);
+}
+
+BTtree::~BTtree()
+{
+    delete root;
 }

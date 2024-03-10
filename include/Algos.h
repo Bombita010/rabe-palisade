@@ -40,13 +40,7 @@ public:
     std::vector<int> kUNodes(BTtree &BTtree, const std::vector<RLuser> revList, time_t t);
 };
 
-Algos::Algos(/* args */)
-{
-}
 
-Algos::~Algos()
-{
-}
 
 
 

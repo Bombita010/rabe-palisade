@@ -2,8 +2,8 @@
 #include "node.h"
 
 // 构造函数定义
-Node::Node(int id, Node* parent, Node* lchild, Node* rchild, bool isleaf) 
-    : id(id), parent(parent), lchild(lchild), rchild(rchild), isleaf(isleaf), u(nullptr) {}
+Node::Node(int id, Node* parent, Node* lchild, Node* rchild, bool isleaf, int u) 
+    : id(id), parent(nullptr), lchild(nullptr), rchild(nullptr), isleaf(false), u(0) {}
 
 // 获取节点ID
 int Node::getId() const {
@@ -23,4 +23,11 @@ Node* Node::getLchild() const {
 // 获取右子节点
 Node* Node::getRchild() const {
     return rchild;
+}
+
+Node::~Node()
+{
+    delete parent;
+    delete lchild;
+    delete rchild;
 }

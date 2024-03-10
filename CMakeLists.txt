@@ -62,12 +62,20 @@ endif()
 ### ADD YOUR EXECUTABLE(s) HERE
 ### add_executable( EXECUTABLE-NAME SOURCES )
 ###
+
+#设置可执行文件生成路径
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+#查找当前目录下的所有源文件，并将名称保存到DIR_SRCS变量
+aux_source_directory(${PROJECT_SOURCE_DIR}/src DIR_SRCS)
+#指定生成目标
+add_executable(test ${DIR_SRCS})
+
 ### EXAMPLE:
-add_executable(test src/main.cpp src/myconfig.cpp)
+#add_executable(test src/myconfig.cpp src/central_auth.cpp src/main.cpp  )
 #add_executable(testconfig src/myconfig.cpp )
 
-#将include目录添加到test目标的包含路径中
-target_include_directories(test PUBLIC ${CMAKE_SOURCE_DIR}/include)
+#将include目录添加到test目标的包含路径中，为编译器提供头文件搜索路径
+target_include_directories(test PUBLIC ${PROJECT_SOURCE_DIR}/include)
 #target_include_directories(testconfig PUBLIC ${CMAKE_SOURCE_DIR}/include)
 
 ### 设置可执行文件的输出路径为build/bin目录

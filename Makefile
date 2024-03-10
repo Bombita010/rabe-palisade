@@ -123,6 +123,114 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+src/Algos.o: src/Algos.cpp.o
+
+.PHONY : src/Algos.o
+
+# target to build an object file
+src/Algos.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Algos.cpp.o
+.PHONY : src/Algos.cpp.o
+
+src/Algos.i: src/Algos.cpp.i
+
+.PHONY : src/Algos.i
+
+# target to preprocess a source file
+src/Algos.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Algos.cpp.i
+.PHONY : src/Algos.cpp.i
+
+src/Algos.s: src/Algos.cpp.s
+
+.PHONY : src/Algos.s
+
+# target to generate assembly for a file
+src/Algos.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Algos.cpp.s
+.PHONY : src/Algos.cpp.s
+
+src/BTtree.o: src/BTtree.cpp.o
+
+.PHONY : src/BTtree.o
+
+# target to build an object file
+src/BTtree.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/BTtree.cpp.o
+.PHONY : src/BTtree.cpp.o
+
+src/BTtree.i: src/BTtree.cpp.i
+
+.PHONY : src/BTtree.i
+
+# target to preprocess a source file
+src/BTtree.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/BTtree.cpp.i
+.PHONY : src/BTtree.cpp.i
+
+src/BTtree.s: src/BTtree.cpp.s
+
+.PHONY : src/BTtree.s
+
+# target to generate assembly for a file
+src/BTtree.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/BTtree.cpp.s
+.PHONY : src/BTtree.cpp.s
+
+src/attr_auth.o: src/attr_auth.cpp.o
+
+.PHONY : src/attr_auth.o
+
+# target to build an object file
+src/attr_auth.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/attr_auth.cpp.o
+.PHONY : src/attr_auth.cpp.o
+
+src/attr_auth.i: src/attr_auth.cpp.i
+
+.PHONY : src/attr_auth.i
+
+# target to preprocess a source file
+src/attr_auth.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/attr_auth.cpp.i
+.PHONY : src/attr_auth.cpp.i
+
+src/attr_auth.s: src/attr_auth.cpp.s
+
+.PHONY : src/attr_auth.s
+
+# target to generate assembly for a file
+src/attr_auth.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/attr_auth.cpp.s
+.PHONY : src/attr_auth.cpp.s
+
+src/central_auth.o: src/central_auth.cpp.o
+
+.PHONY : src/central_auth.o
+
+# target to build an object file
+src/central_auth.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/central_auth.cpp.o
+.PHONY : src/central_auth.cpp.o
+
+src/central_auth.i: src/central_auth.cpp.i
+
+.PHONY : src/central_auth.i
+
+# target to preprocess a source file
+src/central_auth.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/central_auth.cpp.i
+.PHONY : src/central_auth.cpp.i
+
+src/central_auth.s: src/central_auth.cpp.s
+
+.PHONY : src/central_auth.s
+
+# target to generate assembly for a file
+src/central_auth.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/central_auth.cpp.s
+.PHONY : src/central_auth.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -177,6 +285,60 @@ src/myconfig.cpp.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/myconfig.cpp.s
 .PHONY : src/myconfig.cpp.s
 
+src/node.o: src/node.cpp.o
+
+.PHONY : src/node.o
+
+# target to build an object file
+src/node.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/node.cpp.o
+.PHONY : src/node.cpp.o
+
+src/node.i: src/node.cpp.i
+
+.PHONY : src/node.i
+
+# target to preprocess a source file
+src/node.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/node.cpp.i
+.PHONY : src/node.cpp.i
+
+src/node.s: src/node.cpp.s
+
+.PHONY : src/node.s
+
+# target to generate assembly for a file
+src/node.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/node.cpp.s
+.PHONY : src/node.cpp.s
+
+src/user.o: src/user.cpp.o
+
+.PHONY : src/user.o
+
+# target to build an object file
+src/user.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/user.cpp.o
+.PHONY : src/user.cpp.o
+
+src/user.i: src/user.cpp.i
+
+.PHONY : src/user.i
+
+# target to preprocess a source file
+src/user.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/user.cpp.i
+.PHONY : src/user.cpp.i
+
+src/user.s: src/user.cpp.s
+
+.PHONY : src/user.s
+
+# target to generate assembly for a file
+src/user.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/user.cpp.s
+.PHONY : src/user.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +348,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... src/Algos.o"
+	@echo "... src/Algos.i"
+	@echo "... src/Algos.s"
+	@echo "... src/BTtree.o"
+	@echo "... src/BTtree.i"
+	@echo "... src/BTtree.s"
+	@echo "... src/attr_auth.o"
+	@echo "... src/attr_auth.i"
+	@echo "... src/attr_auth.s"
+	@echo "... src/central_auth.o"
+	@echo "... src/central_auth.i"
+	@echo "... src/central_auth.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/myconfig.o"
 	@echo "... src/myconfig.i"
 	@echo "... src/myconfig.s"
+	@echo "... src/node.o"
+	@echo "... src/node.i"
+	@echo "... src/node.s"
+	@echo "... src/user.o"
+	@echo "... src/user.i"
+	@echo "... src/user.s"
 .PHONY : help
 
 

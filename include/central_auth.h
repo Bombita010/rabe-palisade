@@ -4,6 +4,7 @@
 #define CENTRAL_AUTH_H
 
 #include "palisade.h"
+#include "abecontext.h"
 
 using namespace lbcrypto;
 class CentralAuth
@@ -11,14 +12,18 @@ class CentralAuth
 private:
     /* data */
 public:
-    //安全参数lambda
-    usint level;
+    //安全参数
+    SecurityLevel level;
     //
     usint ringSize;
     //
     usint base;
     //
     usint numAttributes;
+    //
+    usint numAAs;
+
+    ABEContext<NativePoly> rabe;
 
     /*
     *@
@@ -42,11 +47,10 @@ public:
     *@return:                                         
     *@return:                                         
     */
-    void CASetup();
+    void CASetup(usint numOfAttr, usint ringSize, usint base);
+
+    void CASetup(SecurityLevel lambda, usint numOfAttr, int numOfAA);
 };
 
-CentralAuth::~CentralAuth()
-{
-}
 
 #endif //CENTRAL_AUTH_H

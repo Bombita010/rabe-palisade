@@ -25,7 +25,11 @@ public:
     MyConfig(const MyConfig &) = delete;
     MyConfig& operator=(const MyConfig&) = delete;
     
+    int getIntValue(const std::string &key);
+
     usint getUsintValue(const std::string &key);
+
+
  
 private:
     static std::mutex mutex_;

@@ -17,14 +17,6 @@ public:
 ();
 };
 
-User::User(/* args */)
-{
-}
-
-User::~User()
-{
-}
-
 
 
 

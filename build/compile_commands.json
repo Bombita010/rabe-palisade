@@ -1,6 +1,26 @@
 [
 {
   "directory": "/home/bombita/rabe/build",
+  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/home/bombita/rabe/src -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/Algos.cpp.o -c /home/bombita/rabe/src/Algos.cpp",
+  "file": "/home/bombita/rabe/src/Algos.cpp"
+},
+{
+  "directory": "/home/bombita/rabe/build",
+  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/home/bombita/rabe/src -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/BTtree.cpp.o -c /home/bombita/rabe/src/BTtree.cpp",
+  "file": "/home/bombita/rabe/src/BTtree.cpp"
+},
+{
+  "directory": "/home/bombita/rabe/build",
+  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/home/bombita/rabe/src -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/attr_auth.cpp.o -c /home/bombita/rabe/src/attr_auth.cpp",
+  "file": "/home/bombita/rabe/src/attr_auth.cpp"
+},
+{
+  "directory": "/home/bombita/rabe/build",
+  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/home/bombita/rabe/src -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/central_auth.cpp.o -c /home/bombita/rabe/src/central_auth.cpp",
+  "file": "/home/bombita/rabe/src/central_auth.cpp"
+},
+{
+  "directory": "/home/bombita/rabe/build",
   "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/home/bombita/rabe/src -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/main.cpp.o -c /home/bombita/rabe/src/main.cpp",
   "file": "/home/bombita/rabe/src/main.cpp"
 },
@@ -8,5 +28,15 @@
   "directory": "/home/bombita/rabe/build",
   "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/home/bombita/rabe/src -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/myconfig.cpp.o -c /home/bombita/rabe/src/myconfig.cpp",
   "file": "/home/bombita/rabe/src/myconfig.cpp"
+},
+{
+  "directory": "/home/bombita/rabe/build",
+  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/home/bombita/rabe/src -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/node.cpp.o -c /home/bombita/rabe/src/node.cpp",
+  "file": "/home/bombita/rabe/src/node.cpp"
+},
+{
+  "directory": "/home/bombita/rabe/build",
+  "command": "/usr/bin/g++   -I/home/bombita/rabe/include -I/home/bombita/rabe/src -I/usr/local/include/palisade -I/usr/local/include/palisade/third-party/include -I/usr/local/include/palisade/core -I/usr/local/include/palisade/pke -I/usr/local/include/palisade-abe   -Wall -Werror -O3  -DPALISADE_VERSION=1.11.9 -Wno-parentheses -DMATHBACKEND=2 -fopenmp -fopenmp -g   -std=gnu++11 -o CMakeFiles/test.dir/src/user.cpp.o -c /home/bombita/rabe/src/user.cpp",
+  "file": "/home/bombita/rabe/src/user.cpp"
 }
 ]

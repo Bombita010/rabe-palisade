@@ -20,6 +20,7 @@ struct RLuser
 class BTtree {
 public:
     BTtree(Node* root = nullptr);
+    ~BTtree();
 
     /*
     *@description: 创建完全二叉树             
@@ -31,7 +32,7 @@ public:
     */
     std::pair<Node*, std::vector<int>> createTree(const std::vector<int>& U);
     
-    std::map<int, int> createTree2(const std::vector<int>& U);
+    std::pair<int, int> createTree2(const std::vector<int>& U);
 
     /*
     *@description:  叶子节点到根节点的路径                 
